@@ -1,218 +1,369 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="ViaMate - Find Your Way, Find Your Mate. Share rides, save time, and travel together." />
-  <title>ViaMate — Find Your Way, Find Your Mate</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header" id="home">
-    <div class="container nav-wrap">
-      <a class="brand" href="#" aria-label="ViaMate home">
-        <img src="assets/logo.png" alt="ViaMate logo" class="brand-logo" />
-        <div class="brand-copy">
-          <strong>ViaMate</strong>
-          <span>Find Your Way, Find Your Mate</span>
-        </div>
-      </a>
-
-      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-
-      <nav class="main-nav" aria-label="Primary navigation">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#how-it-works">How It Works</a>
-        <a class="nav-cta" href="#download">
-          <span class="download-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-          </span>
-          Download App
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ViaMate - Find Your Way, Find Your Mate. Share rides, save time, and travel together."
+    />
+    <title>ViaMate — Find Your Way, Find Your Mate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="home">
+      <div class="container nav-wrap">
+        <a class="brand" href="#" aria-label="ViaMate home">
+          <img
+            src="assets/logo.png"
+            alt="ViaMate logo"
+            class="brand-logo"
+            draggable="false"
+          />
+          <div class="brand-copy">
+            <strong>ViaMate</strong>
+            <span>Find Your Way, Find Your Mate</span>
+          </div>
         </a>
-      </nav>
-    </div>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-bg"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <h1>Find Your Way,<br><span>Find Your Mate</span></h1>
-          <p class="hero-text">
-            ViaMate connects drivers and passengers going the same way.
-            Share rides, save time, and travel together.
-          </p>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
 
-          <a class="primary-btn" href="#download">
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a class="active" href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#how-it-works">How It Works</a>
+          <a class="nav-cta" href="#download">
             <span class="download-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
             </span>
-            Download ViaMate
+            Download App
           </a>
+        </nav>
+      </div>
+    </header>
 
-          <div class="trust-row">
-            <div class="trust-item"><span class="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span><span>Safe</span></div>
-            <div class="trust-divider"></div>
-            <div class="trust-item"><span class="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span><span>Simple</span></div>
-            <div class="trust-divider"></div>
-            <div class="trust-item"><span class="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><span>Reliable</span></div>
+    <main>
+      <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1>Find Your Way,<br /><span>Find Your Mate</span></h1>
+            <p class="hero-text">
+              ViaMate connects drivers and passengers going the same way. Share
+              rides, save time, and travel together.
+            </p>
+
+            <a class="primary-btn" href="#download">
+              <span class="download-icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+              </span>
+              Download ViaMate
+            </a>
+
+            <div class="trust-row">
+              <div class="trust-item">
+                <span class="trust-icon" aria-hidden="true"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                    />
+                    <path d="m9 12 2 2 4-4" /></svg></span
+                ><span>Safe</span>
+              </div>
+              <div class="trust-divider"></div>
+              <div class="trust-item">
+                <span class="trust-icon" aria-hidden="true"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" /></svg></span
+                ><span>Simple</span>
+              </div>
+              <div class="trust-divider"></div>
+              <div class="trust-item">
+                <span class="trust-icon" aria-hidden="true"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg></span
+                ><span>Reliable</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <img src="assets/hero-road.jpeg" alt="" draggable="false" />
           </div>
         </div>
-
-        <div class="hero-visual" aria-hidden="true">
-          <img src="assets/hero-road.jpeg" alt="" />
-        </div>
-      </div>
-      <div class="wave-divider" aria-hidden="true">
-  <svg viewBox="0 0 1440 120" preserveAspectRatio="none" focusable="false">
-    <path
-      d="M0 8
+        <div class="wave-divider" aria-hidden="true">
+          <svg
+            viewBox="0 0 1440 120"
+            preserveAspectRatio="none"
+            focusable="false"
+          >
+            <path
+              d="M0 8
          C220 50 460 88 680 100
          C860 109 1010 113 1170 118
          L1170 120
          C1010 120 860 120 680 120
          C460 120 220 120 0 120
          Z"
-      fill="#0a4fea"
-    />
-    <path
-      d="M980 119
+              fill="#0a4fea"
+            />
+            <path
+              d="M980 119
          C1110 113 1260 94 1440 44
          L1440 120
          C1300 120 1140 120 980 120
          Z"
-      fill="#18c96a"
-    />
-  </svg>
-</div>
-    </section>
-
-    <section class="about section" id="about">
-      <div class="container about-grid">
-        <div class="about-visual">
-          <img src="assets/map-phone.png" alt="ViaMate route preview" />
+              fill="#18c96a"
+            />
+          </svg>
         </div>
+      </section>
 
-        <div class="about-copy">
-          <p class="section-kicker">ABOUT VIAMATE</p>
-          <h2>What is ViaMate?</h2>
-          <div class="heading-line"></div>
-          <p>
-            ViaMate is a ride-sharing platform that helps you find or share
-            rides with people going your way. Save time, reduce costs, and
-            enjoy the journey together.
-          </p>
+      <section class="about section" id="about">
+        <div class="container about-grid">
+          <div class="about-visual">
+            <img
+              src="assets/map-phone.png"
+              alt="ViaMate route preview"
+              draggable="false"
+            />
+          </div>
+
+          <div class="about-copy">
+            <p class="section-kicker">ABOUT VIAMATE</p>
+            <h2>What is ViaMate?</h2>
+            <div class="heading-line"></div>
+            <p>
+              ViaMate is a ride-sharing platform that helps you find or share
+              rides with people going your way. Save time, reduce costs, and
+              enjoy the journey together.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="features section" id="how-it-works">
-      <div class="container">
-        <div class="features-card">
-          <article class="feature">
-            <div class="feature-icon blue" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-            <div>
-              <h3>Share Rides</h3>
-              <p>Find or offer rides and connect with people going your way.</p>
-            </div>
-          </article>
+      <section class="features section" id="how-it-works">
+        <div class="container">
+          <div class="features-card">
+            <article class="feature">
+              <div class="feature-icon blue" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <div>
+                <h3>Share Rides</h3>
+                <p>
+                  Find or offer rides and connect with people going your way.
+                </p>
+              </div>
+            </article>
 
-          <div class="feature-divider"></div>
+            <div class="feature-divider"></div>
 
-          <article class="feature">
-            <div class="feature-icon green" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-            <div>
-              <h3>Save Time</h3>
-              <p>Fewer stops, smoother trips, better journeys.</p>
-            </div>
-          </article>
+            <article class="feature">
+              <div class="feature-icon green" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <div>
+                <h3>Save Time</h3>
+                <p>Fewer stops, smoother trips, better journeys.</p>
+              </div>
+            </article>
 
-          <div class="feature-divider"></div>
+            <div class="feature-divider"></div>
 
-          <article class="feature">
-            <div class="feature-icon blue" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></div>
-            <div>
-              <h3>Travel Safe</h3>
-              <p>Verified users and a secure in-app experience.</p>
-            </div>
-          </article>
+            <article class="feature">
+              <div class="feature-icon blue" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                  />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+              </div>
+              <div>
+                <h3>Travel Safe</h3>
+                <p>Verified users and a secure in-app experience.</p>
+              </div>
+            </article>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="download-section section" id="download">
-      <div class="container">
-        <div class="download-banner">
-          <img src="assets/cta-road.png" alt="" class="cta-image" />
-          <div class="cta-overlay"></div>
+      <section class="download-section section" id="download">
+        <div class="container">
+          <div class="download-banner">
+            <img src="assets/cta-road.png" alt="" class="cta-image" />
+            <div class="cta-overlay"></div>
 
-          <div class="cta-content">
-            <div>
-              <p class="cta-kicker">START YOUR JOURNEY</p>
-              <h2>Ready to ride?</h2>
-              <p>Download ViaMate now and start your journey today!</p>
-            </div>
+            <div class="cta-content">
+              <div>
+                <p class="cta-kicker">START YOUR JOURNEY</p>
+                <h2>Ready to ride?</h2>
+                <p>Download ViaMate now and start your journey today!</p>
+              </div>
 
-            <div class="cta-actions">
-              <a class="white-btn" href="assets/coming-soon.png" download>
-                <span class="download-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                </span>
-                Download ViaMate
-              </a>
+              <div class="cta-actions">
+                <a class="white-btn" href="assets/coming-soon.png" download>
+                  <span class="download-icon" aria-hidden="true">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                      <polyline points="7 10 12 15 17 10" />
+                      <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                  </span>
+                  Download ViaMate
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <a class="brand" href="#home">
-          <img src="assets/logo.png" alt="ViaMate logo" class="brand-logo" />
-          <div class="brand-copy">
-            <strong>ViaMate</strong>
-            <span>Find Your Way, Find Your Mate</span>
-          </div>
-        </a>
-        <!-- <div class="socials">
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#home">
+            <img
+              src="assets/logo.png"
+              alt="ViaMate logo"
+              class="brand-logo"
+              draggable="false"
+            />
+            <div class="brand-copy">
+              <strong>ViaMate</strong>
+              <span>Find Your Way, Find Your Mate</span>
+            </div>
+          </a>
+          <!-- <div class="socials">
           <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
           <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5 1.5 9.9 2 5.6c2.4 2.7 6 4.4 10 4.6-1-4.3 3-7.7 6.9-5.6 1.2 0 3.1-1.6 3.1-1.6z"/></svg></a>
           <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg></a>
         </div> -->
+        </div>
+
+        <div>
+          <h3>Links</h3>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#how-it-works">How It Works</a>
+        </div>
+
+        <div>
+          <h3>Legal</h3>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <a href="mailto:viamate.project@gmail.com"
+            >✉ viamate.project@gmail.com</a
+          >
+        </div>
       </div>
 
-      <div>
-        <h3>Links</h3>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#how-it-works">How It Works</a>
+      <div class="container footer-bottom">
+        © 2026 ViaMate. All rights reserved.
       </div>
+    </footer>
 
-      <div>
-        <h3>Legal</h3>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Service</a>
-      </div>
-
-      <div>
-        <h3>Contact</h3>
-        <a href="mailto:viamate.project@gmail.com">✉ viamate.project@gmail.com</a>
-      </div>
-    </div>
-
-    <div class="container footer-bottom">© 2026 ViaMate. All rights reserved.</div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
